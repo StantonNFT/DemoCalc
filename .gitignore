@@ -1,8 +1,29 @@
-﻿/.vs
-/DemoCalc/bin/Debug/net9.0
-/DemoCalc/obj
-/DemoCalc.Tests/bin/Debug/net9.0
-/DemoCalc.Tests/obj/Debug/net9.0
-/DemoCalc.Tests/obj
-*.sln
-*.csproj
+# IDE caches
+.vs/
+.vscode/
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+TestResults/
+
+# User/machine-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/           # (only if you use packages.config; not used by SDK-style by default)
+*.nupkg
+project.lock.json
+artifacts/
+
+# Others
+*.log
+*.cache
