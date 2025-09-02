@@ -1,0 +1,8 @@
+﻿/.vs
+/DemoCalc/bin/Debug/net9.0
+/DemoCalc/obj
+/DemoCalc.Tests/bin/Debug/net9.0
+/DemoCalc.Tests/obj/Debug/net9.0
+/DemoCalc.Tests/obj
+*.sln
+*.csproj
